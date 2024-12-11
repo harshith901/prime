@@ -1,6 +1,6 @@
 public class PrimeNumb {
     public static void main(String[] args) {
-        int limit = 50; // Change this to set the range
+        int limit = 100; // Change this to set the range
         for (int num = 2; num <= limit; num++) {
             if (isPrime(num)) {
                 System.out.print(num + " ");
